@@ -8,26 +8,37 @@ This is a python project which colors black and white images
   You also need to download modle and past in the ***modles folder*** ( see readme file in modles folder)
   and paste all the files in the same folder and enjoy.
 
-#Working:
+# Working:
 
 You can select the images from the drop down menu, by default it openes your C:\ directory.
-![](images/colorizer1.png)
 
-After selecting the image you can hit Colorize butoon and the image will be colorize. It takes generaly 2 seconds to colorize the image. 
-![](images/colorizer2.png)
+ ![](images/colorizer1.png)
 
-You can also use the saturation, brightness and contrast slider to edit the image to your liking.
-![](images/colorizer3.png)
+# Colorizer
 
-There are also different themes you can select because why not.
-![](images/colorizer4.png)
+  After selecting the image you can hit Colorize butoon and the image will be colorize. It takes generaly 2 seconds to colorize the image. 
+  
+  ![](images/colorizer2.png)
+
+# Editng
+
+  You can also use the saturation, brightness and contrast slider to edit the image to your liking.
+  
+  ![](images/colorizer3.png)
+
+# Themes
+
+  There are also different themes you can select because why not.
+  
+  ![](images/colorizer4.png)
 
 
-There are some known issues such as the sliders are way too sensitive and drastic. 
 
-Reset button dosen't rest the cached colorized image in the program.
+>There are some known issues such as the sliders are way too sensitive and drastic. 
 
-It crashes sometimes for no reason. Somethimes it happens due to not supported image formats.
+>Reset button dosen't rest the cached colorized image in the program.
+
+>It crashes sometimes for no reason. Somethimes it happens due to not supported image formats.
 
 
 Thank you.
