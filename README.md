@@ -10,6 +10,14 @@ This is a python project which colors black and white images
 
 #Working:
 
+![](images/colorizer1.png)
+
+![](images/colorizer2.png)
+
+![](images/colorizer3.png)
+
+![](images/colorizer4.png)
+
 
 
 
