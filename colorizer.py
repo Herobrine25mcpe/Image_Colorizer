@@ -136,20 +136,6 @@ def contrast(c):
         print("contrast error")
 
 
-def smooth(s):
-    try:
-        x = "colorized.jpg"
-        img = cv2.imread(x)
-        sigmas = s*2
-        sigmar = s/100
-        print(sigmar, sigmas)
-        smth= cv2.edgePreservingFilter(img,cv2.RECURS_FILTER, sigmas, sigmar)
-        cv2.imwrite("colorized.jpg",smth)
-        print("done")
-    except:
-        print("smooth error")
-
-
 
 class MainLayout(Widget):
 
