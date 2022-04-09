@@ -135,21 +135,6 @@ def contrast(c):
     except:
         print("contrast error")
 
-def hue(e):
-    try:
-        x = "colorized.jpg"
-        img = cv2.imread(x)
-        imghsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV).astype('float32')
-        h, s, v = cv2.split(imghsv)
-        h = h * (int(e))
-        h = np.clip(s, 0, 255)
-        imghsv = cv2.merge([h, s, v])
-        hueed = cv2.cvtColor(imghsv.astype('uint8'), cv2.COLOR_HSV2BGR)
-        cv2.imwrite("colorized.jpg", hueed)
-        print("done")
-    except:
-        print("hue error")
-
 
 def smooth(s):
     try:
