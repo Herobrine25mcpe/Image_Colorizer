@@ -193,12 +193,6 @@ class MainLayout(Widget):
         except:
             pass
 
-    def update_image(self, dt):
-        self.ids.image2.source.reload()
-
-    def slide_it(self, *args):
-        print(args)
-
     def bright_slider(self, *args):
 
         x = int(args[1])
@@ -208,17 +202,6 @@ class MainLayout(Widget):
 
         x = int(args[1])
         contrast(x)
-
-    def hue_slider(self,*args):
-
-        x = int(args[1])/10
-        hue(x)
-
-    def smooth_slider(self, *args):
-
-        x = int(args[1])
-        smooth(x)
-
 
     def satu_slider(self, *args):
 
@@ -233,7 +216,7 @@ class MainLayout(Widget):
 
 class Colorizer(App):
     def build(self):
-        Window.clearcolor= (0.74, 0.74, 0.74, 1)
+        Window.clearcolor= (0.64, 0.64, 0.64, 1)
         return MainLayout()
 
 
